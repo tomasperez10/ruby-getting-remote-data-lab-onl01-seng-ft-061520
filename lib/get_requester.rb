@@ -20,7 +20,6 @@ class GetRequester
     parser = JSON.parse(self.get_response_body)
     parser.collect do |x|
       x = []
-      
     end
   end
   
