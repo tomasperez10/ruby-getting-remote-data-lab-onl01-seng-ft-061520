@@ -8,7 +8,6 @@ class GetRequester
   
   def initialize(string)
     URL = string
-    
   end
   
   
