@@ -20,6 +20,7 @@ class GetRequester
     parser = JSON.parse(self.get_programs)
     parser.collect do |x|
       x = []
+      x << get_response_body
     end
   end
   
